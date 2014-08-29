@@ -3,13 +3,14 @@
   "version": "0.1.2",
   "description": "Node.js wrapper for Webfaction XML-RPC API",
   "main": "lib/webfaction.js",
-  "homepage" : "https://github.com/robflaherty/webfaction-api/",
+  "homepage": "https://github.com/robflaherty/webfaction-api/",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "xmlrpc": "~1.1.1",
-    "underscore": "~1.5.2"
+    "q": "^1.0.1",
+    "underscore": "~1.5.2",
+    "xmlrpc": "~1.1.1"
   },
   "repository": {
     "type": "git",
